@@ -1,0 +1,36 @@
+body {
+    background-color: cornflowerblue;
+}
+
+#app {
+    background-color: whitesmoke;
+	text-align: center;
+	color: #1d192b;
+	border-radius: 0.5rem;
+	width: 30vw;
+	height: 70vh;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#todo-input {
+	padding: 5px 20px;
+	border-radius: 0.3rem;
+}
+
+#todo-input:focus {
+	border: 3px solid #555;
+}
+
+#todo-submit {
+    padding: 5px 10px;
+    border-radius: 0.3rem;
+    background-color: cornflowerblue;
+    font-weight: 700;
+}
+
+#todo-output {
+    font-size: 1.1rem;
+    text-align: left;
+}
